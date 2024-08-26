@@ -1,0 +1,11 @@
+{
+    "name": "lee1387/bedwars",
+    "require": {
+        "pocketmine/pocketmine-mp": "^5.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lee1387\\Bedwars\\": "src/"
+        }
+    }
+}
