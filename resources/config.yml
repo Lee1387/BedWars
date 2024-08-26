@@ -1,2 +1,5 @@
 # Version of the BedWars Plugin
-version: 1.0.0
+version: 1.0
+
+# IP which will be displayed on the scoreboard and the bossbar
+ip: "play.example.net"

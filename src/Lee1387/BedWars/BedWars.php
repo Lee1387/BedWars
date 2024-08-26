@@ -10,4 +10,9 @@ use pocketmine\utils\SingletonTrait;
 class BedWars extends PluginBase {
 
     use SingletonTrait;
+
+    protected function onLoad(): void {
+        self::setInstance($this);
+    }
+    
 }
